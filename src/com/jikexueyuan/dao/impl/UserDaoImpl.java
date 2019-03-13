@@ -47,13 +47,7 @@ public class UserDaoImpl implements UserDao {
 
 	}
 
-	/**
-	 * 删除用户信息
-	 * 
-	 * @param conn
-	 * @param user
-	 * @throws SQLException
-	 */
+	
 
 	@Override
 	public void delete(Connection conn, User user) throws SQLException {
